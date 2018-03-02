@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".messenger.MessengerMainActivity">
+
+
+    //用于messenger
+    <Button
+        android:id="@+id/bt_sayHi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="say hi!" />
+
+
+    //用于aidl
+    <Button
+        android:id="@+id/bt_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="say hello!" />
+
+
+    //进程测试
+    <Button
+        android:id="@+id/bt_secondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startUpSecondActivity"
+        android:text="启动SecondActivity!" />
+
+    //进程测试
+    <Button
+        android:id="@+id/bt_threeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startUpThreeActivity"
+        android:text="启动ThreeActivity!" />
+
+
+
+    <Button
+        android:id="@+id/bt_Serializable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serializable!" />
+
+
+    <Button
+        android:id="@+id/bt_parcelable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bt_parcelable!" />
+
+</LinearLayout>
